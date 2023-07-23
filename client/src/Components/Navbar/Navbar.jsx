@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="left">
           <div className="item">
-            <img src="images/indiaflag.jpg" style={{width:30}} alt="indiaFlag"/>
+            <img src="/images/indiaflag.jpg" style={{width:30}} alt="indiaFlag"/>
             <KeyboardArrowDownIcon/>
           </div>
           <div className="item">
