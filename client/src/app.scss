@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+
 *{
     padding:0;
     margin:0;
@@ -7,5 +9,12 @@
     .link{
         color:inherit;
         text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight:700;
+        color:#3b3939;
     }
+   h1,h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+   }
 }

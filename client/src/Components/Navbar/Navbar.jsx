@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="center">
-          <Link className='link' to="/">LAV-STORE</Link>
+          <Link className='companyname' to="/">LAV-STORE</Link>
         </div>
         <div className="right">
         <div className="item">
