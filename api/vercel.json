@@ -1,0 +1,21 @@
+{
+    "functions": {
+      "api/**/*.js": {
+        "runtime": "vercel-node14"
+      }
+    },
+    "builds": [
+      { "src": "public/**/*", "use": "@now/static" },
+      { "src": "config/**/*", "use": "@now/node" },
+      { "src": "api/**/*.js", "use": "@now/node" },
+      { "src": "*.js", "use": "@now/node" },
+      { "src": "extensions/**/*.js", "use": "@now/node" }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/api/$1"
+      }
+    ]
+  }
+  
